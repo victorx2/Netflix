@@ -1,0 +1,115 @@
+/* 
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+*/
+
+section
+{
+    width: 150px;
+    height: 150px;
+    background: azure;
+    padding: 10px;
+    font-size: 49px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+body
+{
+    margin: 0;
+    background: rgb(1, 55, 249);
+}
+
+img
+
+{
+position: relative;
+border: 3px solid #000;
+width: 125px;
+height: 125px;
+box-sizing: border-box;
+}
+
+nav{
+/*
+display: inline-flex;
+flex-direction: row 
+*/
+/*
+margin-bottom: 220px
+*/
+position: absolute; /* */
+top: 0px; /* cantidad arbitraria */
+left: 350px; /* cantidad arbitraria*/
+/* margin-left:405px; */
+border: 3px solid #000;
+width: 125px;
+height: 125px;
+box-sizing: border-box;
+
+}
+
+.y
+{
+border: 3px solid #000;
+width: 125px;
+height: 125px;
+box-sizing: border-box;
+}
+
+.px
+{
+border: 5px solid #ccc;
+width:300px;
+height:300px;
+}
+
+
+.container
+
+{
+
+background: #09f;
+width: 100px;
+height: 100px;
+
+}
+
+/* 
+#Gimnasios-Contenedor 
+
+  {
+    padding: 20px 0;
+    position: relative;
+  }
+  
+#map 
+  {
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    z-index: 50;
+    background-color: cyan;
+  }
+  
+#ModalContacto 
+
+  {
+    height: 300px;
+    width: 60%;
+    background-color: orangered;
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    z-index: 100;
+    background: whitesmoke;
+  } 
+
+ */
