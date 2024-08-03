@@ -1,11 +1,11 @@
-/* 
+/*  
 html{
     box-sizing: border-box;
 }
 *, *::before, *::after{
     box-sizing: inherit;
 }
-*/
+
 
 section
 {
@@ -36,17 +36,17 @@ box-sizing: border-box;
 }
 
 nav{
-/*
+
 display: inline-flex;
 flex-direction: row 
-*/
-/*
+
+
 margin-bottom: 220px
-*/
-position: absolute; /* */
-top: 0px; /* cantidad arbitraria */
-left: 350px; /* cantidad arbitraria*/
-/* margin-left:405px; */
+
+position: absolute;  
+top: 0px;  cantidad arbitraria 
+left: 350px;  cantidad arbitraria
+ margin-left:405px; 
 border: 3px solid #000;
 width: 125px;
 height: 125px;
@@ -80,7 +80,7 @@ height: 100px;
 
 }
 
-/* 
+ 
 #Gimnasios-Contenedor 
 
   {
@@ -100,7 +100,7 @@ height: 100px;
   }
   
 #ModalContacto 
-
+/
   {
     height: 300px;
     width: 60%;
@@ -112,4 +112,4 @@ height: 100px;
     background: whitesmoke;
   } 
 
- */
+  */
