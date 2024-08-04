@@ -19,9 +19,9 @@ h2 {
   font-size: 2.7em;
 }
 
-h3  #h3{
+h3 #h3 {
 
-/*   
+  /*   
   font-size: 2em;
   color:blue;
   background-color: blue;
@@ -33,21 +33,22 @@ h3  #h3{
 h4 {
   font-size: 1.8em;
 }
+
 h5 {
   font-size: 1.05em;
 }
 
-.Header, 
-.Nav, 
-.Aside, 
-.Section, 
-.Footer { 
-    /* display: inline-flex;  */
-} 
+.Header,
+.Nav,
+.Aside,
+.Section,
+.Footer {
+  /* display: inline-flex;  */
+}
 
 .ul .li .a {
 
-/*  font-size: 1.5em;
+  /*  font-size: 1.5em;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 10px;
@@ -75,7 +76,7 @@ button:hover {
 
 */
 .containerDigitalCode {
-/* 
+  /* 
 
   max-width: 500px;
   margin: auto 
@@ -105,7 +106,7 @@ button:hover {
 */
 
 .header .digitalCodeLogo {
-/* 
+  /* 
   display: flex;
   flex-direction: column; 
   cursor: pointer;
@@ -114,7 +115,7 @@ button:hover {
 }
 
 .header .digitalCodeLogo>img {
-/*   
+  /*   
   height: 70px;
   width: auto;
   margin-right: 10px; 
@@ -122,15 +123,15 @@ button:hover {
 }
 
 .logoDigitalCode {
-/*   display: flex; */
+  /*   display: flex; */
 }
 
 nav {
-/*   display: flex; */
+  /*   display: flex; */
 }
 
 .header nav .headerDigitalCode {
-/*   display: inline-block;
+  /*   display: inline-block;
   list-style: none;
   margin: 0;
   padding: 25px 30px;
@@ -139,7 +140,7 @@ nav {
 }
 
 .container {
-/*   
+  /*   
   display:flex;
   flex-direction: row;
   align-items: center;
@@ -149,7 +150,7 @@ nav {
 
 .marginAuto {
 
-/*  
+  /*  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -159,7 +160,7 @@ nav {
 }
 
 .header .headerDigitalCode #headerDigitalCodeId {
-/*  
+  /*  
   height: 100vh;
   display: flex; 
 */
@@ -167,7 +168,7 @@ nav {
 
 
 .header .headerDigitalCode .headerListFather {
-/*  
+  /*  
   position: relative;
   flex-direction: column;
   font-weight: 400;
@@ -178,16 +179,15 @@ nav {
 */
 }
 
-.header .headerDigitalCode .headerListFather .headerList>span{
-/* display: inline; */
+.header .headerDigitalCode .headerListFather .headerList>span {
+  /* display: inline; */
 }
 
 .header .headerDigitalCode .headerListFather a:hover {}
 
 
-.header #headerListId
-{
-/*   
+.header #headerListId {
+  /*   
   display: flex;
   z-index: 1;
   margin: 0 auto;
@@ -199,23 +199,21 @@ nav {
 }
 
 .headerNavDigitalCode {
-/*   
+  /*   
   display: flex; 
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;   
 */
-} 
+}
 
-div{
-
-} 
+div {}
 
 
 body {
 
-/* 
+  /* 
   height: 100vh;
   overflow: hidden;
   margin: 0;
@@ -227,7 +225,7 @@ body {
 }
 
 main {
-/*   
+  /*   
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
@@ -243,7 +241,7 @@ div {
   justify-content: space-between;
   flex-direction: column; 
   */
-  } 
+}
 
 
 /*   
@@ -321,12 +319,12 @@ div {
 /* } */
 
 /* img { */
-  /* display: flex; */
-  /* 
+/* display: flex; */
+/* 
   display: grid;
   grid-template-columns: repeat(auto-fit,
   minmax(150px, 1fr)); */
-  /* border-radius: 8px;
+/* border-radius: 8px;
   box-shadow: 0px 0px 40px #000;
   background-size: cover;
   background-position: center center;
@@ -335,7 +333,7 @@ div {
   margin: 50px auto;
   width: 300px;
   height: 300px; */
-  /* 
+/* 
   position: absolute;
   z-index: 1;
   top: 0;
@@ -378,7 +376,7 @@ div {
 } */
 
 /* .headClass { */
-  /* 
+/* 
   text-align: justify;
   text-decoration: overline;
   text-shadow: 3px 5px 5px blue;
