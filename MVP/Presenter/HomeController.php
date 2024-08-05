@@ -25,8 +25,12 @@ class HomeController
 
     public function digitalcode()
     {
-        require_once "View/login/digitalcode.php";
+        define('__ROOT__', dirname(dirname(__FILE__)));
+        //require_once(__ROOT__ . '/config.php');
+        require_once(__ROOT__ . '/View/login/digitalcode.php');
         exit;
-        return "Hola mundo - Asi llamo una funcion dentro de un controllador";
+        //require_once "../View/login/digitalcode.php";
+        //return "Hola mundo - Asi llamo una funcion dentro de un controllador";
+        //exit;
     }
 }

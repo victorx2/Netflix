@@ -20,6 +20,24 @@ require 'MVP/Presenter/HomeController.php';
 
 $router = new Routing();
 $home = new HomeController();
+
+$uriGet = $_SERVER['REQUEST_URI'];
+
+$route = str_replace("/DigitalCode", '', $uriGet);
+
+$home->digitalcode('/', function () {
+    echo "Hola Mundo - Esta es una ruta simple";
+    //$home->showHome();
+    //$this->home = new HomeController();
+    //$router = $router->showHome(); 
+});
+
+/* 
+require 'route/routing.php';
+require 'MVP/Presenter/HomeController.php';
+
+$router = new Routing();
+$home = new HomeController();
 $uriGet = $_SERVER['REQUEST_URI'];
 $route = str_replace("/DigitalCode", '', $uriGet);
 
@@ -28,7 +46,7 @@ $router->add('/', function () {
     //$home->showHome();
     //$this->home = new HomeController();
     //$router = $router->showHome(); 
-});
+}); */
 
 /* $home->showHome('',function(){
   //echo "Hola Mundo - Esta es una ruta simple";
