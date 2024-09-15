@@ -1,0 +1,122 @@
+/* circulo*/
+.action .profile {
+    position: relative;
+    width: 45px; /* tamaño del circulo*/
+    height: 45px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    background: #ebebeb;
+}
+
+/* imagen*/
+.action .profile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.action {
+    position: relative;
+    top: 0px;
+    right: -120px;
+    z-index: 10000;
+}
+
+/* menu*/
+.action .menuusuario {
+    position: absolute;
+    top: 120px;
+    right: -17px;
+    padding: 10px 20px;
+    background: #ebebeb;
+    width: 200px;
+    box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    transition: 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.action .menuusuario.active {
+    top: 80px;
+    visibility: visible;
+    opacity: 1;
+}
+
+@media (max-width: 960px) {
+    .action {
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        z-index: 10000;
+    }
+}
+
+/* triangulo*/
+.action .menuusuario::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: 28px;
+    width: 20px;
+    height: 20px;
+    background: #ebebeb;
+    transform: rotate(45deg);
+}
+
+.action .menuusuario h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.2em;
+}
+
+.action .menuusuario h3 span {
+    font-size: 14px;
+    color: #494949;
+    font-weight: 400;
+}
+
+.action .menuusuario ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+}
+
+.action .menuusuario ul {
+    padding-left: 0rem;
+}
+
+.action .menuusuario ul li .ico {
+    max-width: 25px;
+    margin-right: 0px;
+    opacity: 0.5;
+    transition: 0.5s;
+    padding-right: 0.5em;
+}
+
+.action .menuusuario ul li:hover .icon {
+    opacity: 1;
+}
+
+.action .menuusuario ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #1f1e1e;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.action .menuusuario ul li:hover a {
+    color: #0061a9;
+}
